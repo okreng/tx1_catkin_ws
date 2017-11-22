@@ -1,0 +1,66 @@
+# TrajClient params
+X_des: [5.600000,0.000000,0.000000,0.000000,0.000000,0.000000]
+# X_des: [2.7,1.05,3.1415,0.000000,0.000000,0.000000]
+
+timestep: 0.05 #0.02
+
+# Rampup params
+
+## GAINS FOR PID TO REGULATE YAW
+kp_ramp: 0.9 #0.6
+ki_ramp: 0.3 #0.2
+kd_ramp: 1.2 #0.3
+kp_ramp_y: 0.01
+steering_offset: 0.02 #0.025
+
+accel_ramp: 2.5
+target_vel_ramp: 3.0
+pre_ramp_vel: 0.5
+pre_ramp_time: 1.0
+timeout_ramp: 3.5
+
+# iLQR params
+timeout_ilqr_mpc: 2.5
+stop_goal_threshold: 0.3
+
+ilqr_tolFun: 0.0000001
+ilqr_tolConstraint: 0.0000001
+ilqr_tolGrad: 0.00001
+ilqr_max_iter: 30
+ilqr_regType: 1
+ilqr_debug_level: 2
+
+use_fixed_rate_replan: 1
+replan_rate: 2 # for fixed rate replanning
+
+use_extrapolate: 1
+extrapolate_dt: 0.20
+
+# Original params:
+Opt_car_param: {g: 9.81, m: 2.35, L: 0.257, b: 0.14328,
+                c_x: 116, c_a: 197, Iz: 0.045, mu: 1.31, mu_s: 0.55, #Iz: 0.025
+                limThr: [0, 3.0], limSteer: [-0.77, 0.77],
+                k_steer: 20 } #limSteer: [-0.68, 0.76]
+
+Opt_cost: {cu: [0.01, 0.01], cdu: [1.0, 0.4],
+           cf: [100, 100, 5, 10, 0.1, 0.1],
+           pf: [0.01, 0.01, 0.1, 0.1, 0.1, 0.1],
+           cx: [0.5, 0.5, 0.04], cdx: [0.001, 0.005, 0.002],
+           px: [0.01, 0.01, 0.1],
+           cdrift: -0.001,
+           k_pos: 5.0, k_vel: 0, d_thres: 1.0}
+
+######
+# TrajServer params
+old_msg_discard_thres: 0.15 #[seconds]
+
+# Obstacle detection params
+scan_clip_angle: 0.6 #radians
+naive_obstacle_dist_thres: 1.5
+naive_obstacle_percent_thres: 0.0001
+
+# PID heading correction params
+use_pid: 1
+kp_heading: 0.1
+ki_heading: 0.0
+kd_heading: 0.1

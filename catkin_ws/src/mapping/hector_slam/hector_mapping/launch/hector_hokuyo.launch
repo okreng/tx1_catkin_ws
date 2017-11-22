@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <!--  <arg name="lidar_path" default="/dev/hokuyo" /> -->
+  <!--  <arg name="lidar_path" default="_serial_port:='/dev/hokuyo'" /> -->
+  <arg name="lidar_path" default="_ip_address:=192.168.0.10" />
+
+<!--  <node pkg="urg_node" type="urg_node" name="urg_node" args="$(arg lidar_path)"/> -->
+
+<!--  <node pkg="tf" type="static_transform_publisher" name="base_to_laser_broadcaster" args="0 0 0 0 0 0 base_footprint laser 100"/> -->
+
+  <node pkg="hector_mapping" type="hector_mapping" name="hector_mapping" output="screen">
+
+    <rosparam>
+      map_frame: map
+      base_frame: base_link
+      odom_frame: base_link
+
+      # TF
+      use_tf_scan_transformation: true   # otherwise use scan matching
+      use_tf_pose_start_estimate: false
+      pub_map_odom_transform: true
+
+      # Map size / start point
+      map_resolution: 0.05
+      map_size: 1024
+      map_start_x: 0.5
+      map_start_y: 0.5
+      map_multi_res_levels: 2
+
+      # Map update parameters
+      update_factor_free: 0.4     # 0.5 means no change
+      update_factor_occupied: 0.9 # 0.5 means no change
+      scanmatch_max_translation: 9999.1  # 4 m/s
+      scanmatch_max_rotation:    9999.08 # 180 deg/s
+      map_update_distance_thresh: 0.2
+      map_update_altitude_thresh: 9999.2
+      map_update_angle_thresh: 0.06
+      map_update_time_thresh: 0
+      map_pub_period: 0.3
+      publish_map_incrementally: true # must match /planner/global_costmap/static_map/subscribe_to_updates
+      laser_z_min_value: -99    # absolute. SLAM starts when laser is 0.1m above this.
+      laser_z_max_value: 99     # absolute, ie: not relative to quad's altitue
+      laser_min_dist: 0.17      # probably want to set to just under inscribed radius
+      laser_max_dist: 25.0      # hokuyo reports no return as 65m, sim as ~20m
+
+      # Advertising config
+      advertise_map_service: true
+
+      scan_subscriber_queue_size: 5
+      scan_topic: scan
+
+      # Debug parameters
+      output_timing: false
+      pub_drawings: false
+      pub_debug_output: false
+
+      tf_map_scanmatch_transform_frame_name: scanmatcher_frame
+    </rosparam>
+    
+  </node>
+
+
+</launch>

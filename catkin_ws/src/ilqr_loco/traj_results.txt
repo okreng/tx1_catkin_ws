@@ -1,0 +1,350 @@
+[0m[ INFO] [1356912864.178015607]: Loading parameters.[0m
+[0m[ INFO] [1356912864.263770503]: Filling playback msg.[0m
+[0m[ INFO] [1356912864.263896076]: Waiting for action server to start.[0m
+[0m[ INFO] [1356912864.455552638]: Action client started. Send me commands from keyboard_command![0m
+[0m[ INFO] [1356912909.323616163]: Mode 1: ramp. If I see an obstacle, I'll brake![0m
+[0m[ INFO] [1356912909.356249861]: Rampup steer: -0.06[0m
+[0m[ INFO] [1356912909.396221528]: Rampup steer: -0.03[0m
+[0m[ INFO] [1356912909.396365694]: Rampup steer: -0.03[0m
+[0m[ INFO] [1356912909.436216944]: Rampup steer: -0.03[0m
+[0m[ INFO] [1356912909.436325955]: Rampup steer: -0.03[0m
+[0m[ INFO] [1356912909.458689705]: Rampup steer: -0.03[0m
+[0m[ INFO] [1356912909.476305121]: Rampup steer: -0.03[0m
+[0m[ INFO] [1356912909.516210694]: Rampup steer: -0.03[0m
+[0m[ INFO] [1356912909.568440225]: Rampup steer: -0.03[0m
+[0m[ INFO] [1356912909.606245642]: Rampup steer: -0.03[0m
+[0m[ INFO] [1356912909.606365538]: Rampup steer: -0.03[0m
+[0m[ INFO] [1356912909.618803507]: Rampup steer: -0.03[0m
+[0m[ INFO] [1356912909.636231632]: Rampup steer: -0.03[0m
+[0m[ INFO] [1356912909.676414705]: Rampup steer: -0.03[0m
+[0m[ INFO] [1356912909.716197205]: Rampup steer: -0.03[0m
+[0m[ INFO] [1356912909.756307673]: Rampup steer: -0.02[0m
+[0m[ INFO] [1356912909.796252882]: Rampup steer: -0.03[0m
+[0m[ INFO] [1356912909.836318142]: Rampup steer: -0.02[0m
+[0m[ INFO] [1356912909.877469288]: Rampup steer: -0.02[0m
+[0m[ INFO] [1356912909.916391684]: Rampup steer: -0.02[0m
+[0m[ INFO] [1356912909.956198611]: Rampup steer: -0.01[0m
+[0m[ INFO] [1356912909.996580017]: Rampup steer: -0.01[0m
+[0m[ INFO] [1356912910.036615902]: Rampup steer: -0.01[0m
+[0m[ INFO] [1356912910.038542569]: Rampup steer: -0.00[0m
+[0m[ INFO] [1356912910.077485902]: Rampup steer: -0.01[0m
+[0m[ INFO] [1356912910.116323350]: Rampup steer: -0.00[0m
+[0m[ INFO] [1356912910.156416267]: Rampup steer: 0.01[0m
+[0m[ INFO] [1356912910.196634027]: Rampup steer: 0.00[0m
+[0m[ INFO] [1356912910.218162465]: Rampup steer: 0.01[0m
+[0m[ INFO] [1356912910.236439236]: Rampup steer: 0.00[0m
+[0m[ INFO] [1356912910.276284496]: Rampup steer: 0.00[0m
+[0m[ INFO] [1356912910.316273767]: Rampup steer: 0.01[0m
+[0m[ INFO] [1356912910.356330642]: Rampup steer: 0.20[0m
+[0m[ INFO] [1356912910.396275433]: Rampup steer: 0.10[0m
+[0m[ INFO] [1356912910.436343142]: Rampup steer: 0.11[0m
+[0m[ INFO] [1356912910.476254913]: Rampup steer: 0.11[0m
+[0m[ INFO] [1356912910.516259235]: Rampup steer: 0.11[0m
+[0m[ INFO] [1356912910.566260694]: Rampup steer: 0.10[0m
+[0m[ INFO] [1356912910.566429235]: Rampup steer: 0.10[0m
+[0m[ INFO] [1356912910.606294392]: Rampup steer: 0.11[0m
+[0m[ INFO] [1356912910.606462048]: Rampup steer: 0.11[0m
+[0m[ INFO] [1356912910.617830121]: Rampup steer: 0.10[0m
+[0m[ INFO] [1356912910.640128975]: Rampup steer: 0.10[0m
+[0m[ INFO] [1356912910.676229600]: Rampup steer: 0.09[0m
+[0m[ INFO] [1356912910.716336110]: Rampup steer: 0.09[0m
+[0m[ INFO] [1356912910.756291683]: Rampup steer: 0.07[0m
+[0m[ INFO] [1356912910.796389392]: Rampup steer: 0.07[0m
+[0m[ INFO] [1356912910.836202308]: Rampup steer: 0.06[0m
+[0m[ INFO] [1356912910.876362100]: Rampup steer: 0.07[0m
+[0m[ INFO] [1356912910.876538715]: Rampup steer: 0.05[0m
+[0m[ INFO] [1356912910.916437048]: Rampup steer: 0.04[0m
+[0m[ INFO] [1356912910.916605381]: Rampup steer: 0.05[0m
+[0m[ INFO] [1356912910.956753089]: Rampup steer: 0.05[0m
+[0m[ INFO] [1356912910.957011475]: Rampup steer: 0.04[0m
+[0m[ INFO] [1356912910.996618662]: Rampup steer: 0.03[0m
+[0m[ INFO] [1356912910.996838819]: Rampup steer: 0.04[0m
+[0m[ INFO] [1356912911.036772412]: Rampup steer: 0.04[0m
+[0m[ INFO] [1356912911.037413506]: Rampup steer: 0.01[0m
+[0m[ INFO] [1356912911.076510069]: Rampup steer: 0.02[0m
+[0m[ INFO] [1356912911.076686371]: Rampup steer: 0.00[0m
+[0m[ INFO] [1356912911.116397933]: Rampup steer: -0.01[0m
+[0m[ INFO] [1356912911.156485589]: Rampup steer: -0.01[0m
+[0m[ INFO] [13569129[0m[ INFO] [1356912864.133279618]: Loading traj server params.[0m
+[0m[ INFO] [1356912864.149339305]: TrajServer: goal x= 12.000000[0m
+[0m[ INFO] [1356912864.149395451]: Started traj server. Send me actions![0m
+[0m[ INFO] [1356912909.356776944]: Ramp twist.[0m
+[0m[ INFO] [1356912909.396669132]: traj_server: Preempted at 0th command.[0m
+[0m[ INFO] [1356912909.396767361]: Ramp twist.[0m
+[0m[ INFO] [1356912909.436876996]: Ramp twist.[0m
+[0m[ INFO] [1356912909.459233871]: Ramp twist.[0m
+[0m[ INFO] [1356912909.476839444]: Ramp twist.[0m
+[0m[ INFO] [1356912909.516931319]: Ramp twist.[0m
+[0m[ INFO] [1356912909.569031736]: Ramp twist.[0m
+[0m[ INFO] [1356912909.606798038]: traj_server: Preempted at 0th command.[0m
+[0m[ INFO] [1356912909.606895798]: Ramp twist.[0m
+[0m[ INFO] [1356912909.619224705]: Ramp twist.[0m
+[0m[ INFO] [1356912909.636672830]: Ramp twist.[0m
+[0m[ INFO] [1356912909.677561996]: Ramp twist.[0m
+[0m[ INFO] [1356912909.716726267]: Ramp twist.[0m
+[0m[ INFO] [1356912909.756813611]: Ramp twist.[0m
+[0m[ INFO] [1356912909.797219757]: Ramp twist.[0m
+[0m[ INFO] [1356912909.836808350]: Ramp twist.[0m
+[0m[ INFO] [1356912909.878460173]: Ramp twist.[0m
+[0m[ INFO] [1356912909.917006111]: Ramp twist.[0m
+[0m[ INFO] [1356912909.956778298]: Ramp twist.[0m
+[0m[ INFO] [1356912909.997099079]: Ramp twist.[0m
+[0m[ INFO] [1356912910.037195954]: Ramp twist.[0m
+[0m[ INFO] [1356912910.039048611]: Ramp twist.[0m
+[0m[ INFO] [1356912910.077982361]: Ramp twist.[0m
+[0m[ INFO] [1356912910.117327881]: Ramp twist.[0m
+[0m[ INFO] [1356912910.156947152]: Ramp twist.[0m
+[0m[ INFO] [1356912910.197195642]: Ramp twist.[0m
+[0m[ INFO] [1356912910.236312256]: Ramp twist.[0m
+[0m[ INFO] [1356912910.276538454]: Ramp twist.[0m
+[0m[ INFO] [1356912910.316638663]: Ramp twist.[0m
+[0m[ INFO] [1356912910.356594340]: Ramp twist.[0m
+[0m[ INFO] [1356912910.396983923]: Ramp twist.[0m
+[0m[ INFO] [1356912910.436483454]: Ramp twist.[0m
+[0m[ INFO] [1356912910.476371631]: Ramp twist.[0m
+[0m[ INFO] [1356912910.516986840]: Ramp twist.[0m
+[0m[ INFO] [1356912910.556684548]: Ramp twist.[0m
+[0m[ INFO] [1356912910.596934027]: Ramp twist.[0m
+[0m[ INFO] [1356912910.636566735]: Ramp twist.[0m
+[0m[ INFO] [1356912910.637050850]: Ramp twist.[0m
+[0m[ INFO] [1356912910.676940798]: Ramp twist.[0m
+[0m[ INFO] [1356912910.716962308]: Ramp twist.[0m
+[0m[ INFO] [1356912910.757423975]: Ramp twist.[0m
+[0m[ INFO] [1356912910.797283871]: Ramp twist.[0m
+[0m[ INFO] [1356912910.836741371]: Ramp twist.[0m
+[0m[ INFO] [1356912910.877215017]: Ramp twist.[0m
+[0m[ INFO] [1356912910.916268142]: Ramp twist.[0m
+[0m[ INFO] [1356912910.956843506]: Ramp twist.[0m
+[0m[ INFO] [1356912910.996694704]: Ramp twist.[0m
+[0m[ INFO] [1356912911.036656892]: Ramp twist.[0m
+[0m[ INFO] [1356912911.077201110]: Ramp twist.[0m
+[0m[ INFO] [1356912911.077823923]: Ramp twist.[0m
+[0m[ INFO] [1356912911.119369600]: Ramp twist.[0m
+[0m[ INFO] [1356912911.157032100]: Ramp twist.[0m
+[0m[ INFO] [1356912911.197385329]: Ramp twist.[0m
+[0m[ INFO] [1356912911.237318298]: Ramp twist.[0m
+[0m[ INFO] [1356912911.276323350]: Ramp twist.[0m
+[0m[ INFO] [1356912911.316597621]: Ramp twist.[0m
+[0m[ INFO] [1356912911.356623558]: Ramp twist.[0m
+[0m[ INFO] [1356912911.396669860]: Ramp twist.[0m
+[0m[ INFO] [1356912911.436407568]: Ramp twist.[0m
+[0m[ INFO] [1356912911.476744652]: Ramp twist.[0m
+[0m[ INFO] [1356912911.516638662]: Ramp twist.[0m
+[0m[ INFO] [1356912911.518897777]: Ramp twist.[0m
+[0m[ INFO] [1356912911.556844704]: Ramp twist.[0m
+[0m[ INFO] [1356912911.597405641]: Ramp twist.[0m
+[0m[ INFO] [1356912911.636810745]: Ramp twist.[0m
+[0m[ INFO] [1356912911.676932360]: Ramp twist.[0m
+[0m[ INFO] [1356912911.716887673]: Ramp twist.[0m
+[0m[ INFO] [1356912911.757048558]: Ramp twist.[0m
+[0m[ INFO] [1356912911.797206943]: Ramp twist.[0m
+[0m[ INFO] [1356912911.837044183]: Ramp twist.[0m
+[0m[ INFO] [1356912911.877257100]: Ramp twist.[0m
+[0m[ INFO] [1356912911.917336318]: Ramp twist.[0m
+[0m[ INFO] [1356912911.957144235]: Ramp twist.[0m
+[0m[ INFO] [1356912911.997012777]: Ramp twist.[0m
+[0m[ INFO] [1356912912.036620745]: Ramp twist.[0m
+[0m[ INFO] [1356912912.076638662]: Ramp twist.[0m
+[0m[ INFO] [1356912912.116722360]: Ramp twist.[0m
+[0m[ INFO] [1356912912.127950693]: Ramp twist.[0m
+[0m[ INFO] [1356912912.166812256]: Ramp twist.[0m
+[0m[ INFO] [1356912912.206722308]: Ramp twist.[0m
+[0m[ INFO] [1356912912.247097672]: Ramp twist.[0m
+[0m[ INFO] [1356912912.287438714]: Ramp twist.[0m
+[0m[ INFO] [1356912912.327270224]: Ramp twist.[0m
+[0m[ INFO] [1356912912.366599547]: Ramp twist.[0m
+[0m[ INFO] [1356912912.366876943]: Ramp twist.[0m
+[0m[ INFO] [1356912912.407158454]: Ramp twist.[0m
+[0m[ INFO] [1356912912.446839651]: Ramp twist.[0m
+[0m[ INFO] [1356912912.486631058]: Ramp twist.[0m
+[0m[ INFO] [1356912912.526664287]: Ramp twist.[0m
+[0m[ INFO] [1356912912.566901110]: Ramp twist.[0m
+[0m[ INFO] [1356912912.607402256]: Ramp twist.[0m
+[0m[ INFO] [1356912912.646703141]: Ramp twist.[0m
+[0m[ INFO] [1356912912.696437933]: Ramp twist.[0m
+[0m[ INFO] [1356912912.737736422]: Ramp twist.[0m
+[0m[ INFO] [1356912912.776443297]: Ramp twist.[0m
+[0m[ INFO] [1356912912.816486005]: Ramp twist.[0m
+[0m[ INFO] [1356912912.856597620]: Ramp twist.[0m
+[0m[ INFO] [1356912912.896473714]: Ramp twist.[0m
+[0m[ INFO] [1356912912.936864860]: Ramp twist.[0m
+[0m[ INFO] [1356912912.976800120]: Ramp twist.[0m
+[0m[ INFO] [1356912913.006998245]: Ramp twist.[0m
+[0m[ INFO] [1356912913.047429703]: Ramp twist.[0m
+[0m[ INFO] [1356912913.086839547]: Ramp twist.[0m
+[0m[ INFO] [1356912913.126857047]: Ramp twist.[0m
+[0m[ INFO] [1356912913.166737359]: Ramp twist.[0m
+[0m[ INFO] [1356912913.206710120]: Ramp twist.[0m
+[0m[ INFO] [1356912913.246674807]: Ramp twist.[0m
+[0m[ INFO] [1356912913.286946266]: Ramp twist.[0m
+[0m[ INFO] [1356912913.327915224]: Ramp twist.[0m
+[0m[ INFO] [1356912913.366619964]: Ramp twist.[0m
+[0m[ INFO] [1356912913.406748245]: Ramp twist.[0m
+[0m[ INFO] [1356912913.447020797]: Ramp twist.[0m
+[0m[ INFO] [1356912913.486910380]: Ramp twist.[0m
+[0m[ INFO] [1356912913.537147984]: Ramp twist.[0m
+[0m[ INFO] [1356912913.586913245]: Ramp twist.[0m
+[0m[ INFO] [1356912913.626834963]: Ramp twist.[0m
+[0m[ INFO] [1356912913.666514807]: Ramp twist.[0m
+[0m[ INFO] [1356912913.666838349]: Ramp twist.[0m
+[0m[ INFO] [1356912913.706604443]: Ramp twist.[0m
+[0m[ INFO] [1356912913.737125797]: Ramp twist.[0m
+[0m[ INFO] [1356912913.776436786]: Ramp twist.[0m
+[0m[ INFO] [1356912913.816981526]: Ramp twist.[0m
+[0m[ INFO] [1356912913.856457724]: Ramp twist.[0m
+[0m[ INFO] [1356912913.896983140]: Ramp twist.[0m
+[0m[ INFO] [1356912913.936771318]: Ramp twist.[0m
+[0m[ INFO] [1356912913.976447515]: Ramp twist.[0m
+[0m[ INFO] [1356912914.016830484]: Ramp twist.[0m
+[0m[ INFO] [1356912914.057175536]: traj_server: Preempted at 0th command.[0m
+[0m[ INFO] [1356912914.058048922]: Ramp twist.[0m
+[0m[ INFO] [1356912914.097199390]: Ramp twist.[0m
+[0m[ INFO] [1356912914.136969755]: Ramp twist.[0m
+[0m[ INFO] [1356912914.177049703]: Ramp twist.[0m
+[0m[ INFO] [1356912914.219197880]: Ramp twist.[0m
+[0m[ INFO] [1356912914.257038609]: Ramp twist.[0m
+[0m[ INFO] [1356912914.296671057]: Ramp twist.[0m
+[0m[ INFO] [1356912914.337258974]: Ramp twist.[0m
+[0m[ INFO] [1356912914.376876786]: Ramp twist.[0m
+[0m[ INFO] [1356912914.417679286]: Ramp twist.[0m
+[0m[ INFO] [1356912914.457340796]: Ramp twist.[0m
+[0m[ INFO] [1356912914.496908557]: Ramp twist.[0m
+[0m[ INFO] [1356912914.536725953]: Ramp twist.[0m
+[0m[ INFO] [1356912914.576820067]: Ramp twist.[0m
+[0m[ INFO] [1356912914.616695224]: Ramp twist.[0m
+[0m[ INFO] [1356912914.656790901]: Ramp twist.[0m
+[0m[ INFO] [1356912914.696791265]: Ramp twist.[0m
+[0m[ INFO] [1356912914.736765640]: Ramp twist.[0m
+[0m[ INFO] [1356912914.776757776]: Ramp twist.[0m
+[0m[ INFO] [1356912914.816993609]: Ramp twist.[0m
+[0m[ INFO] [1356912914.857235692]: Ramp twist.[0m
+[0m[ INFO] [1356912914.897208192]: Ramp twist.[0m
+[0m[ INFO] [1356912914.936930796]: Ramp tw11.196671527]: Rampup steer: -0.01[0m
+[0m[ INFO] [1356912911.236623975]: Rampup steer: -0.03[0m
+[0m[ INFO] [1356912911.241286266]: Rampup steer: -0.02[0m
+[0m[ INFO] [1356912911.276530485]: Rampup steer: -0.04[0m
+[0m[ INFO] [1356912911.316316787]: Rampup steer: -0.03[0m
+[0m[ INFO] [1356912911.356398402]: Rampup steer: -0.05[0m
+[0m[ INFO] [1356912916.076464910]: Obstacle detector: Found obstacle.[0m
+[0m[ INFO] [1356912916.086877671]: Transformed obs pos.[0m
+[0m[ INFO] [1356912916.086925379]: Reacting to obstacle![0m
+[0m[ INFO] [1356912916.087005171]: Sent zero command.[0m
+ist.[0m
+[0m[ INFO] [1356912914.976499859]: Ramp twist.[0m
+[0m[ INFO] [1356912915.016409182]: Ramp twist.[0m
+[0m[ INFO] [1356912915.056455067]: Ramp twist.[0m
+[0m[ INFO] [1356912915.057406161]: Ramp twist.[0m
+[0m[ INFO] [1356912915.096749859]: Ramp twist.[0m
+[0m[ INFO] [1356912915.137430900]: Ramp twist.[0m
+[0m[ INFO] [1356912915.176566682]: Ramp twist.[0m
+[0m[ INFO] [1356912915.216634598]: Ramp twist.[0m
+[0m[ INFO] [1356912915.257699025]: Ramp twist.[0m
+[0m[ INFO] [1356912915.296665067]: Ramp twist.[0m
+[0m[ INFO] [1356912915.336513296]: Ramp twist.[0m
+[0m[ INFO] [1356912915.376491577]: Ramp twist.[0m
+[0m[ INFO] [1356912915.416862827]: Ramp twist.[0m
+[0m[ INFO] [1356912915.457140952]: Ramp twist.[0m
+[0m[ INFO] [1356912915.496461473]: Ramp twist.[0m
+[0m[ INFO] [1356912915.536556004]: Ramp twist.[0m
+[0m[ INFO] [1356912915.576441004]: Ramp twist.[0m
+[0m[ INFO] [1356912915.616711890]: Ramp twist.[0m
+[0m[ INFO] [1356912915.656562879]: traj_server: Preempted at 0th command.[0m
+[0m[ INFO] [1356912915.656868140]: Ramp twist.[0m
+[0m[ INFO] [1356912915.696830484]: Ramp twist.[0m
+[0m[ INFO] [1356912915.746745171]: Ramp twist.[0m
+[0m[ INFO] [1356912915.786637567]: Ramp twist.[0m
+[0m[ INFO] [1356912915.827117358]: Ramp twist.[0m
+[0m[ INFO] [1356912915.866875327]: Ramp twist.[0m
+[0m[ INFO] [1356912915.906729129]: Ramp twist.[0m
+[0m[ INFO] [1356912915.946831681]: Ramp twist.[0m
+[0m[ INFO] [1356912915.987211473]: Ramp twist.[0m
+[0m[ INFO] [1356912916.026860796]: Ramp twist.[0m
+[0m[ INFO] [1356912916.066877254]: Ramp twist.[0m
+[0m[ INFO] [1356912916.116713192]: Ramp twist.[0m
+... logging to /home/ubuntu/.ros/log/facf2050-52de-11e2-9ce8-00044b65c2f4/roslaunch-tx1-7727.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/ubuntu/catkin_ws/src/ilqr_loco/launch/bstraj_action_client.launch
+[1mstarted roslaunch server http://10.10.10.118:58897/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /Opt_car_param/Iz: 0.045
+ * /Opt_car_param/L: 0.257
+ * /Opt_car_param/b: 0.14328
+ * /Opt_car_param/c_a: 197
+ * /Opt_car_param/c_x: 116
+ * /Opt_car_param/g: 9.81
+ * /Opt_car_param/k_steer: 20
+ * /Opt_car_param/limSteer: [-0.77, 0.77]
+ * /Opt_car_param/limThr: [0, 3.0]
+ * /Opt_car_param/m: 2.35
+ * /Opt_car_param/mu: 1.31
+ * /Opt_car_param/mu_s: 0.55
+ * /Opt_cost/Obs_offsetX: [0, 0, -0.3]
+ * /Opt_cost/Obs_offsetY: [-0.15, -0.3, -0.3]
+ * /Opt_cost/cdrift: -0.001
+ * /Opt_cost/cdu: [1.0, 0.4]
+ * /Opt_cost/cdx: [0.001, 0.005, 0....
+ * /Opt_cost/cf: [100, 100, 50, 10...
+ * /Opt_cost/cu: [0.01, 0.01]
+ * /Opt_cost/cx: [0.5, 0.5, 0.04]
+ * /Opt_cost/d_thres: 1.5
+ * /Opt_cost/k_pos: 4.0
+ * /Opt_cost/k_vel: 1.0
+ * /Opt_cost/pf: [0.01, 0.01, 0.1,...
+ * /Opt_cost/px: [0.01, 0.01, 0.1]
+ * /X_des: [12, 0, 0, 0, 0, 0]
+ * /accel_ramp: 2.5
+ * /extrapolate_dt: 0.2
+ * /ilqr_debug_level: 2
+ * /ilqr_max_iter: 60
+ * /ilqr_regType: 1
+ * /ilqr_tolConstraint: 1e-07
+ * /ilqr_tolFun: 1e-07
+ * /ilqr_tolGrad: 1e-05
+ * /init_control_seq: [3.0, 0.722413997...
+ * /kd_heading: 0.1
+ * /kd_ramp: 1.0
+ * /ki_heading: 0.0
+ * /ki_ramp: 0.4
+ * /kp_heading: 0.4
+ * /kp_ramp: 1.0
+ * /kp_ramp_y: 0.0
+ * /naive_obstacle_dist_thres: 1.5
+ * /naive_obstacle_percent_thres: 0.0001
+ * /old_msg_discard_thres: 1.0
+ * /pre_ramp_time: 2.0
+ * /pre_ramp_vel: 0.5
+ * /ramp_steer_multiplier: 1.5
+ * /replan_rate: 2
+ * /rosdistro: indigo
+ * /rosversion: 1.11.20
+ * /scan_clip_angle: 0.6
+ * /stop_goal_threshold: 0.3
+ * /target_vel_ramp: 3.0
+ * /timeout_ilqr_mpc: 2.5
+ * /timeout_ramp: 30
+ * /timestep: 0.05
+ * /use_extrapolate: 1
+ * /use_fixed_rate_replan: 1
+ * /use_pid: 1
+
+NODES
+  /
+    traj_client (ilqr_loco/traj_client)
+    traj_server (ilqr_loco/traj_server)
+
+[1mROS_MASTER_URI=http://10.10.10.118:11311[0m
+]2;/home/ubuntu/catkin_ws/src/ilqr_loco/launch/bstraj_action_client.launch http://10.10.10.118:11311
+core service [/rosout] found
+[1mprocess[traj_client-1]: started with pid [7752][0m
+[1mprocess[traj_server-2]: started with pid [7753][0m
+[traj_server-2] killing on exit
+[traj_client-1] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

@@ -1,0 +1,78 @@
+<!--
+  Simulate a carlike robot with the teb_local_planner in stage:
+  - stage
+  - map_server
+  - move_base
+  - static map
+  - amcl
+  - rviz view
+ -->
+<launch>
+
+        <!--  ************** Global Parameters ***************  -->
+        <param name="/use_sim_time" value="true"/>
+
+        <!--  ************** Stage Simulator ***************  -->
+	<node pkg="stage_ros" type="stageros" name="stageros" args="$(find teb_local_planner)/stage/fve_map_carlike.world">
+	   <remap from="base_scan" to="scan"/>
+  </node>
+
+        <!--  ************** Navigation ***************  -->
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base_node" output="screen">
+
+    <param name="footprint_padding" value="0.01" />
+
+    <param name="clearing_rotation_allowed" value="false" /> <!-- Our carlike robot is not able to rotate in place -->
+
+    <param name="base_global_planner" value="SBPLLatticePlanner" />
+    <param name="SBPLLatticePlanner/primitive_filename" value="$(find sbpl)/matlab/mprim/testing_loco.mprim" />
+    <rosparam file="$(find sbpl_lattice_planner)/launch/sbpl_global_params.yaml" command="load" />
+    <param name="planner_frequency" value="1.0" />
+    <param name="planner_patience" value="5.0" />
+
+    <param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS" />
+    <param name="controller_frequency" value="5.0" />
+    <param name="controller_patience" value="15.0" />
+    <rosparam file="$(find teb_local_planner)/cfg/carlike/teb_local_planner_params.yaml" command="load" />
+
+    <rosparam file="$(find teb_local_planner)/cfg/carlike/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find teb_local_planner)/cfg/carlike/costmap_common_params.yaml" command="load" ns="local_costmap" />
+
+    <rosparam file="$(find sbpl_lattice_planner)/launch/local_costmap_params_close.yaml" command="load" />
+    <rosparam file="$(find sbpl_lattice_planner)/launch/global_costmap_params.yaml" command="load" />
+  </node>
+
+
+    <include file="$(find hector_mapping)/launch/hector_odom.launch">
+     <arg name="map_frame" value="hector_odom"/>
+</include>
+
+	<!--  ****** Maps *****  -->
+	<node name="map_server" pkg="map_server" type="map_server" args="$(find teb_local_planner)/stage/maps/fve_map.yaml" output="screen">
+		<param name="frame_id" value="/map"/>
+	</node>
+
+	  <node pkg="amcl" type="amcl" name="amcl" output="screen">
+    <param name="odom_frame_id" value="hector_odom" />
+
+	    <param name="update_min_d" value="0.1" />
+	    <param name="update_min_a" value="0.1" />
+
+	    <param name="m" value="diff" />
+	    <param name="odom_alpha1" value="0.4" />
+	    <param name="odom_alpha2" value="0.4" />
+	    <param name="odom_alpha3" value="0.4" />
+	    <param name="odom_alpha4" value="0.4" />
+
+	    <param name="initial_pose_x"            value="1.3"/>
+            <param name="initial_pose_y"            value="0.6"/>
+	    <param name="initial_pose_a"            value="0"/>
+
+	    <param name="initial_cov_aa" value="0.5" />
+
+	  </node>
+
+	  <!--  **************** Visualisation ****************  -->
+	  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find loco)/config/rviz_navigation_sbpl.rviz"/>
+
+</launch>
